@@ -35,39 +35,6 @@ Landing page komersial premium untuk kedai kopi **Kopi Langit** di Bandung. Diba
 
 ---
 
-## 📁 Struktur Folder
-D:\Projects\Landing Page
-├── 📁 out/                 ← Output build (deploy ini ke Vercel)
-├── 📁 public/
-│   └── 📁 images/          ← Taruh foto asli di sini
-├── 📁 src/
-│   ├── 📁 app/
-│   │   ├── 📄 page.tsx       ← Halaman utama
-│   │   ├── 📄 layout.tsx     ← Root layout + metadata
-│   │   └── 📄 globals.css    ← CSS variables + custom styles
-│   ├── 📁 components/
-│   │   ├── 📁 ui/            ← shadcn/ui base (Button, Card, Badge)
-│   │   ├── 📁 shared/        ← Navbar, WhatsAppButton
-│   │   └── 📁 sections/      ← Landing page sections
-│   │       ├── 📄 Hero.tsx
-│   │       ├── 📄 Problem.tsx
-│   │       ├── 📄 Solution.tsx
-│   │       ├── 📄 Menu.tsx
-│   │       ├── 📄 SocialProof.tsx
-│   │       ├── 📄 Location.tsx
-│   │       ├── 📄 CTA.tsx
-│   │       ├── 📄 FAQ.tsx
-│   │       └── 📄 Footer.tsx
-│   └── 📁 lib/
-│       └── 📄 utils.ts       ← cn() helper
-├── 📄 next.config.js         ← Config static export
-├── 📄 tailwind.config.ts     ← Custom colors + fonts
-├── 📄 tsconfig.json
-└── 📄 package.json
-
-
----
-
 ## 🚀 Cara Menjalankan
 
 ### Prasyarat
